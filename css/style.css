@@ -754,12 +754,10 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
-  
-  transform: ;
-  transform: translate(-50%, -50%) scale(1);
-  transition: transform;
+  transition-property: transform;
   transition-duration: var(--timing);
   transition-timing-function: var(--timing-function);
+  transform: translate(-50%, -50%) scale(1);
 
   min-height: 581px;
   width: 528px;
